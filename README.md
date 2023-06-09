@@ -1,2 +1,2 @@
 # Medusa
-Medusa's Retry Date
+Medusa's Day counting site
