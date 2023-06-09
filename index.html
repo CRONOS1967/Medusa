@@ -21,17 +21,17 @@
 	</style>
 </head>
 <body onload="setStartTime()">
-	<h1>Time Since Medusa ....</h1>
-	<p>Click the "Reset" button to set the starting date.</p>
-	<button onclick="setStartTime()">Reset</button>
+	<h1>Time Since</h1>
+	<p>Medusa Last .....</p>
+	<button hidden onclick="setStartTime()">Reset</button>
 	<div class="clock" id="clock"></div>
 
 	<script>
 		let startTime;
 
 		function setStartTime() {
-			// Set the starting time to the current time
-			startTime = new Date();
+			// Set the starting time to June 9, 2023 at 11:27 AM
+			startTime = new Date(2023, 5, 9, 11, 27, 0);
 			updateClock();
 		}
 
